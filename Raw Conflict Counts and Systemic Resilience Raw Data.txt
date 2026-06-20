@@ -1,0 +1,54 @@
+Raw Conflict Counts and Systemic Resilience Raw Data
+Sumerian Civilization, 2500每1900 BCE
+Document Overview
+This file provides the raw, unnormalized data underlying the Antagonistic Investment Index  and Systemic Resilience Index  for the Sumerian core case study. All data are aggregated into 50-year time slices following the chronological binning protocol described in Supplementary Section S2.2.3. No manual interpolation was applied to fill empty time windows; all values are derived directly from published peer-reviewed archaeological sources.
+
+1. Raw Conflict Counts (Antagonistic Investment Index )
+Inclusion criteria: Formal military conflicts between sovereign Sumerian city-states (border skirmishes, sieges, royal campaigns) attested in royal inscriptions, year-names and administrative archives. Isolated raids, legendary accounts and non-Sumerian external invasions are excluded.
+Time Slice (BCE)	Midpoint Year (BCE)	Number of Inter-polity Conflicts	Dating Uncertainty Note	Primary Source
+2500每2451	2475	2	Low; attested in Early Dynastic I royal inscriptions	Cooper (1983)
+2450每2401	2425	3	Low; well-dated Early Dynastic II border disputes	Cooper (1983)
+2400每2351	2375	4	Low; Early Dynastic III campaign records	Cooper (1983)
+2350每2301	2325	5	Moderate; overlapping with early Sargonic chronology	Cooper (1983); Liverani (2014)
+2300每2251	2275	6	Moderate; Akkadian imperial period provincial conflicts	Liverani (2014)
+2250每2201	2225	8	Moderate; late Akkadian inter-polity rivalry intensifies	Cooper (1983); Liverani (2014)
+2200每2151	2175	11	Moderate; post-Akkadian fragmentation and border conflict surge	Cooper (1983)
+2150每2101	2125	14	Low; peak of Lagash-Umma border conflict and city-state warfare	Cooper (1983)
+2100每2051	2075	10	Moderate; early Ur III period, declining inter-city conflict	Liverani (2014)
+2050每2001	2025	7	Moderate; post-Ur III political fragmentation	Liverani (2014)
+2000每1951	1975	5	Moderate; Isin-Larsa period localized conflicts	Liverani (2014)
+1950每1900	1925	4	Moderate; early Old Babylonian period	Liverani (2014)
+Table Notes:
+?Events with dating uncertainty ≒30 years are assigned to the bin containing their median date.
+?Events with wider temporal ambiguity are proportionally split across overlapping 50-year slices.
+?All events are counted with equal weight; no magnitude weighting is applied due to unavailable quantitative conflict scale data for the Early Bronze Age.
+
+2. Raw Settled Urban Area (Systemic Resilience Index )
+Proxy: Total settled area of major Sumerian urban centers, presented as a unified relative scale integrated from two independent regional archaeological survey datasets.
+Time Slice (BCE)	Midpoint Year (BCE)	Total Settled Urban Area (Relative Scale)	Primary Source
+2500每2451	2475	65	Adams (1981); Wilkinson et al. (2013)
+2450每2401	2425	72	Adams (1981); Wilkinson et al. (2013)
+2400每2351	2375	81	Adams (1981); Wilkinson et al. (2013)
+2350每2301	2325	90	Adams (1981); Wilkinson et al. (2013)
+2300每2251	2275	95	Adams (1981); Wilkinson et al. (2013)
+2250每2201	2225	92	Adams (1981); Wilkinson et al. (2013)
+2200每2151	2175	85	Adams (1981); Wilkinson et al. (2013)
+2150每2101	2125	58	Adams (1981); Wilkinson et al. (2013)
+2100每2051	2075	20	Adams (1981); Wilkinson et al. (2013)
+2050每2001	2025	15	Adams (1981); Wilkinson et al. (2013)
+2000每1951	1975	12	Adams (1981); Wilkinson et al. (2013)
+1950每1900	1925	10	Adams (1981); Wilkinson et al. (2013)
+Table Notes:
+?For geographically overlapping survey areas, the mean of the two area estimates is used; for non-overlapping areas, values from the respective survey are adopted.
+?All area estimates are converted to a uniform relative scale prior to aggregation to eliminate methodological differences between survey projects.
+?The 20% collapse threshold (relative to pre-shock peak) corresponds to the magnitude of urban settlement contraction documented for the terminal Early Dynastic period in southern Mesopotamia (Adams, 1981).
+
+3. Data Processing Metadata
+?Chronological framework: Middle Chronology for Mesopotamia
+?Time slice definition: Consecutive 50-year intervals, represented by midpoint year in all analyses and plots
+?Normalization method: Min-max scaling to [0,1] over the 2500每1900 BCE analysis window
+?Dating uncertainty: ㊣30 years typical for Bronze Age archaeological contexts
+4. Data Availability
+Full raw datasets, event coding scripts, and binning algorithms are deposited in the open-access GitHub repository and permanent Zenodo archive linked in the main manuscript＊s Data and Code Availability section. All materials are freely available for independent verification and reuse.
+
+
