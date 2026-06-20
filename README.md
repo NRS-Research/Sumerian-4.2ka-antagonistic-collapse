@@ -1,3 +1,5 @@
+ DOI: 10.5281/zenodo.20770263
+
 Repository overview: research background, dataset summary, quick start guide
 
 Replication data and code for "Antagonistic Adaptation and System Collapse"
