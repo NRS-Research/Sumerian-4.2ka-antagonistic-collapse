@@ -1,0 +1,14 @@
+year_BCE,gamma_t_normalized,conflict_phase,note
+2500,0.1,baseline,Low-frequency inter-city conflicts in Early Dynastic II period
+2450,0.15,rising,Gradual increase in border disputes among Sumerian city-states
+2400,0.25,rising,Escalating territorial conflicts in Early Dynastic III period
+2350,0.4,escalation,Intensified Lagash-Umma border warfare
+2300,0.3,suppression,Temporary reduction under Akkadian imperial unification
+2250,0.55,rising,Resurgent conflicts amid weakening imperial control and climatic stress
+2200,0.8,rapid_rise,Sharp increase in militarized competition after climatic peak
+2150,0.95,peak_plateau,Near-peak frequency of inter-city warfare
+2100,1,peak,Peak frequency of militarized conflicts (~2130 BCE core peak)
+2050,0.6,declining,Decline in conflict scale as urban systems collapse
+2000,0.3,declining,Reduced conflict intensity with depopulated settlement systems
+1950,0.15,recovery,Return to low-level regional competition
+1900,0.1,baseline,Post-collapse baseline conflict level

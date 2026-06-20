@@ -1,0 +1,14 @@
+year_BCE,w_t_normalized,resilience_phase,note
+2500,0.20,growth,Early Dynastic II period: gradual urbanization and settlement expansion
+2450,0.40,growth,Early Dynastic IIIa: proliferation of city-states, expanding settled area
+2400,0.65,prosperity,Early Dynastic IIIb: peak of city-state civilization, high urban density
+2350,0.80,pre_imperial_peak,Late Early Dynastic: maximum settlement extent before imperial unification
+2300,0.95,imperial_peak,Akkadian Empire unification: integrated regional system, peak systemic resilience
+2250,0.85,slow_decline,Late Akkadian period: initial aridity stress, marginal settlements abandoned
+2200,0.70,accelerated_decline,Post-climatic-peak: weakening imperial control, settlement contraction
+2150,0.45,rapid_collapse,Fall of Akkadian Empire: political fragmentation and settlement abandonment
+2100,0.20,deep_decline,Gutian interregnum: widespread urban decay, population dispersal
+2050,0.08,collapse_baseline,Collapse of classic Sumerian urban system (~2070 BCE core collapse)
+2000,0.15,early_recovery,Early Ur III period: initial re-settlement and regional re-integration
+1950,0.30,recovery,Ur III dynasty: re-urbanization and state-level reconstruction
+1900,0.35,post_recovery,Post-Ur III period: stabilized settlement system at lower equilibrium

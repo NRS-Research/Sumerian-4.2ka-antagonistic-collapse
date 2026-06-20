@@ -1,0 +1,14 @@
+year_BCE,s_t_normalized,climate_phase,note
+2500,0.05,baseline,Pre-event background period
+2450,0.20,weak_event_end,Tail of the minor 4.5 ka dust event
+2400,0.10,transient,Post-minor-event recovery phase
+2350,0.08,baseline,Pre-main-event stable baseline
+2300,0.35,onset,Abrupt onset of the main 4.2 ka arid event
+2250,0.70,rising,Rapid intensification of aridity and dust activity
+2200,1.00,peak,Peak aridity and dust flux (core 4.2 ka event)
+2150,0.90,plateau,Sustained high aridity plateau
+2100,0.75,declining,Gradual weakening of arid conditions
+2050,0.40,declining,Significant reduction in dust activity
+2000,0.15,termination,Arid event terminates, return to near-baseline
+1950,0.08,recovery,Post-event recovery period
+1900,0.05,baseline,Post-event stable background state
