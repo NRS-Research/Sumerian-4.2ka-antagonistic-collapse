@@ -22,35 +22,8 @@ Directory	Description
 All data are aggregated into 50-year time slices covering 2500–1900 BCE and normalized to the [0, 1] interval via min-max scaling, consistent with the ±30-year dating uncertainty standard for Bronze Age archaeological contexts.
 ---
 Directory Structure
-```Plain Text
-project-repo/
-├── README.md                          # This file
-├── LICENSE                            # CC-BY-NC 4.0 License
-├── 仓库结构.txt                       # Chinese directory structure reference
-│
-├── data/                              # Time-series datasets
-│   ├── raw\_proxy\_carolin2019.cvs      # Raw Mg/Ca and δ¹⁸O proxy data (Carolin et al. 2019)
-│   ├── stress\_index\_timeseries.csv    # Normalized climate stress index s(t) (Table S1)
-│   ├── antagonistic\_index\_timeseries.csv  # Normalized antagonistic investment index Γ(t) (Table S2)
-│   └── resilience\_index\_timeseries.csv    # Normalized system resilience index W(t) (Table S3)
-│
-├── code/                              # Reproducible analysis code
-│   ├── calc\_stress\_index.py           # Climate stress index calculation script
-│   ├── conflict\_multiplier\_simulation.py  # Core conflict multiplier model simulation (Section S3)
-│   ├── sensitivity\_analysis.py        # Parameter robustness and sensitivity test (Section S4)
-│   └── plot\_stress\_index.py           # s(t) time-series visualization
-│
-├── docs/                              # Documentation and source tracing
-│   ├── README Climate Stress Index s(t) for Mesopotamia (4.2 ka Event).md
-│   ├── data\_extraction\_notes.md
-│   ├── peak\_validation\_table.md
-│   ├── antagonistic\_index\_notes.md
-│   ├── resilience\_index\_notes.md
-│   └── Cross-Civilization Chronology Notes for Table S4.md
-│
-└── figures/                           # Publication-grade output figures
-    ├── s\_t\_timeseries.png / .pdf
-    └── conflict\_multiplier\_simulation.png / .pdf
+``` 
+(see updated Directory Structure.txt on main)
 ```
 ---
 Quick Start
