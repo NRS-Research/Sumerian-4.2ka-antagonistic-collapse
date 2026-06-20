@@ -1,7 +1,7 @@
 project-repo/
 ├── README.md                          # 仓库总说明：研究背景、数据概览、快速上手指引 | Repository overview: research background, dataset summary, quick start guide
 ├── LICENSE                            # 版权协议（推荐 CC-BY-NC 4.0，与补充材料声明一致） | License (recommended CC-BY-NC 4.0, consistent with SI statement)
-└── Repository directory structure.txt                       # 仓库目录结构说明文件 | Repository directory structure description file
+└── Directory structure.txt                       # 仓库目录结构说明文件 | Repository directory structure description file
 ├── data/                              # 时序数据集与原始代理数据 | Time-series datasets & raw proxy data
 │   │                                    # 统一50年时间切片、min-max归一化，覆盖2500–1900 BCE | Uniform 50-year slices, min-max normalized, 2500–1900 BCE coverage
 │   ├── raw_proxy_carolin2019.txt      # 原始代用数据：Carolin et al. (2019) 数字化提取的Mg/Ca与δ¹⁸O记录 | Raw proxy data: digitized Mg/Ca and δ¹⁸O records from Carolin et al. (2019)
