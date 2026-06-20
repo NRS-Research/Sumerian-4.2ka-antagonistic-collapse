@@ -1,0 +1,34 @@
+project-repo/
+├── README.md                          # 仓库总说明：研究背景、数据概览、快速上手指引 | Repository overview: research background, dataset summary, quick start guide
+├── LICENSE                            # 版权协议（推荐 CC-BY-NC 4.0，与补充材料声明一致） | License (recommended CC-BY-NC 4.0, consistent with SI statement)
+└── Repository directory structure.txt                       # 仓库目录结构说明文件 | Repository directory structure description file
+├── data/                              # 时序数据集与原始代理数据 | Time-series datasets & raw proxy data
+│   │                                    # 统一50年时间切片、min-max归一化，覆盖2500–1900 BCE | Uniform 50-year slices, min-max normalized, 2500–1900 BCE coverage
+│   ├── raw_proxy_carolin2019.txt      # 原始代用数据：Carolin et al. (2019) 数字化提取的Mg/Ca与δ¹⁸O记录 | Raw proxy data: digitized Mg/Ca and δ¹⁸O records from Carolin et al. (2019)
+│   ├── stress_index_timeseries.csv    # 气候胁迫指数 s(t) 标准化时序表（对应SI Table S1） | Normalized climate stress index s(t) (corresponds to SI Table S1)
+│   ├── antagonistic_index_timeseries.csv  # 对抗投资指数 γ(t) 标准化时序表（对应SI Table S2） | Normalized antagonistic investment index γ(t) (corresponds to SI Table S2)
+│   ├── resilience_index_timeseries.csv    # 系统韧性指数 W(t) 标准化时序表（对应SI Table S3） | Normalized system resilience index W(t) (corresponds to SI Table S3)
+│   └── Raw Conflict Counts and Systemic Resilience Raw Data.md  # 冲突事件与韧性指标原始计数底表 | Raw underlying data of conflict events and resilience proxies
+├── code/                              # 可复现分析代码 | Reproducible analysis code
+│   │                                    # 运行环境：Python 3.8+，依赖 numpy / scipy / matplotlib | Environment: Python 3.8+, requires numpy / scipy / matplotlib
+│   ├── calc_stress_index.py            # 气候胁迫指数 s(t) 计算脚本 | Calculation script for climate stress index s(t)
+│   ├── conflict_multiplier_simulation.py  # 冲突乘数模型核心数值模拟（对应SI S3） | Core numerical simulation of the conflict multiplier model (corresponds to SI S3)
+│   ├── sensitivity_analysis.py        # 参数稳健性与敏感性检验脚本（对应SI S4） | Parameter robustness and sensitivity test script (corresponds to SI S4)
+│   └── plot_stress_index.py           # s(t) 时序曲线可视化脚本，输出出版级配图 | Visualization script for s(t) curve, generates publication-quality figures
+├── docs/                              # 数据溯源、方法说明与可靠性核验文档 | Documentation: data traceability, methodology and reliability verification
+│   ├── README Climate Stress Index s(t) for Mesopotamia (4.2 ka Event).md
+│   │                                    # 气候胁迫指数 s(t) 专项说明：构建方法、数据源与引用规范 | Dedicated guide for s(t): construction method, data sources and citation rules
+│   ├── data_extraction_notes.md       # 数据提取笔记：数字化工具、提取精度与误差范围 | Data extraction notes: digitization tool, extraction precision and error range
+│   ├── peak_validation_table.md       # ~2190 BCE 干旱峰值多源独立交叉验证表 | Multi-source cross-validation table for the ~2190 BCE aridity peak
+│   ├── antagonistic_index_notes.md    # 对抗投资指数 γ(t) 事件溯源与可靠性说明 | Antagonistic index γ(t): event tracing and reliability notes
+│   ├── resilience_index_notes.md      # 系统韧性指数 W(t) 构建逻辑与考古数据源说明 | Resilience index W(t): construction logic and archaeological data sources
+│   ├── Detailed Conflict Events_2150–2101 BCE.md  # 核心时段冲突事件逐条考订明细 | Item-by-item documentation of conflict events in the core period
+│   ├── Cross-Civilization Chronology Notes for Table S4.md
+│   │                                    # 跨文明年代学数据说明与完整可靠性核验（对应SI Table S4） | Cross-civilization chronology notes + full reliability verification (corresponds to SI Table S4)
+│   ├── Supplementary Text S1: Raw Conflict Counts and Systemic Resilience Raw Data.md
+│   │                                    # 补充文本S1：原始冲突计数与韧性底表完整说明 | Supplementary Text S1: raw conflict counts and resilience underlying data
+│   └── Supplementary Text S2: Full Multi-Parameter Sensitivity Scans and Uncertainty Propagation Results.md
+│                                        # 补充文本S2：全参数敏感性扫描与不确定性传播结果 | Supplementary Text S2: full multi-parameter sensitivity scans and uncertainty propagation
+└── figures/                           # 脚本输出的出版级图件（PNG格式） | Script-generated publication-grade figures (PNG format)
+    ├── s_t_timeseries.png             # s(t) 时序曲线图 | s(t) time-series plot
+    └── conflict_multiplier_simulation.png  # 冲突乘数模型三面板模拟结果图 | 3-panel conflict multiplier simulation plot
