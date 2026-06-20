@@ -23,7 +23,7 @@ All data are aggregated into 50-year time slices covering 2500–1900 BCE and no
 ---
 Directory Structure
 ``` 
-(see updated Directory Structure.txt on main)
+(see updated Directory Structure.txt in main)
 ```
 ---
 Quick Start
