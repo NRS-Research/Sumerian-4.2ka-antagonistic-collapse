@@ -12,7 +12,7 @@ project-repo/
 ├── code/                              # 可复现分析代码 | Reproducible analysis code
 │   │                                    # 运行环境：Python 3.8+，依赖 numpy / scipy / matplotlib | Environment: Python 3.8+, requires numpy / scipy / matplotlib
 │   ├── calc_stress_index.py            # 气候胁迫指数 s(t) 计算脚本 | Calculation script for climate stress index s(t)
-│   ├── conflict_multiplier_simulation.py  # 冲突乘数模型核心数值模拟（对应SI S3） | Core numerical simulation of the conflict multiplier model (corresponds to SI S3)
+│   ├── antagonistic_dynamics_simulation.py  # 冲突乘数模型核心数值模拟（对应SI S3） | Core numerical simulation of the conflict multiplier model (corresponds to SI S3)
 │   ├── sensitivity_analysis.py        # 参数稳健性与敏感性检验脚本（对应SI S4） | Parameter robustness and sensitivity test script (corresponds to SI S4)
 │   └── plot_stress_index.py           # s(t) 时序曲线可视化脚本，输出出版级配图 | Visualization script for s(t) curve, generates publication-quality figures
 ├── docs/                              # 数据溯源、方法说明与可靠性核验文档 | Documentation: data traceability, methodology and reliability verification
@@ -31,4 +31,4 @@ project-repo/
 │                                        # 补充文本S2：全参数敏感性扫描与不确定性传播结果 | Supplementary Text S2: full multi-parameter sensitivity scans and uncertainty propagation
 └── figures/                           # 脚本输出的出版级图件（PNG格式） | Script-generated publication-grade figures (PNG format)
     ├── s_t_timeseries.png             # s(t) 时序曲线图 | s(t) time-series plot
-    └── conflict_multiplier_simulation.png  # 冲突乘数模型三面板模拟结果图 | 3-panel conflict multiplier simulation plot
+    └── antagonistic_dynamics_simulation.png  # 冲突乘数模型三面板模拟结果图 | 3-panel conflict multiplier simulation plot
