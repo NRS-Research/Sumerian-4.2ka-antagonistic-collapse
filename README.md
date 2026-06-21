@@ -2,12 +2,12 @@
 
 Repository overview: research background, dataset summary, quick start guide
 
-Replication data and code for "Antagonistic Adaptation and System Collapse"
-This repository provides the complete reproducible dataset and numerical simulation code for the conflict multiplier model, which explains the centennial-scale lag between climatic stress peaks and societal collapse across Bronze Age civilizations during the 4.2 ka event. The Sumerian civilization is used as the core quantitative case study, with four additional civilizations included for cross-validation.
+Replication data and code for "A ~120-Year Lag Between Peak Aridity and Sumerian Collapse"
+This repository provides the complete reproducible dataset and numerical simulation code for the Antagonistic Dynamics Model, which explains the centennial-scale lag between climatic stress peaks and societal collapse across Bronze Age civilizations during the 4.2 ka event. The Sumerian civilization is used as the core quantitative case study, with four additional civilizations included for cross-validation.
 ---
 Research Background
-The 4.2 ka event (ca. 2310–2020 BCE) was one of the most severe global aridification episodes of the Holocene. Archaeological records consistently show that major Bronze Age civilizations — Sumer, Old Kingdom Egypt, the Indus Valley, and Minoan Crete — all collapsed roughly 100–200 years after the climatic aridity peak, rather than immediately.
-This study proposes a conflict multiplier model to explain this lag phenomenon through a three-stage dynamical sequence:
+The 4.2 ka event (ca. 2310–2020 BCE) was one of the most severe global aridification episodes of the Holocene. Archaeological records consistently show that major Bronze Age civilizations — Sumer, Old Kingdom Egypt, the Indus Valley, and Minoan Crete — all collapsed roughly ~120 years​ after the climatic aridity peak, with a consistent 100–200 year range observed across civilizations, rather than immediately.
+This study proposes a antagonistic dynamics model to explain this lag phenomenon through a three-stage dynamical sequence:
 Pressure buildup: Climatic stress gradually erodes productive capacity
 Antagonistic amplification: Rising resource competition drives internal militarization and inter-polity conflict
 Resilience depletion: Systemic resilience decays exponentially until collapse
@@ -41,8 +41,8 @@ Run the Core Simulation
 # Navigate to code directory
 cd code
 
-# Run the conflict multiplier model simulation
-python conflict\_multiplier\_simulation.py
+# Run the antagonistic dynamics model simulation
+python antagonistic\_dynamics\_simulation.py
 ```
 The script will automatically:
 Solve the core differential equation with baseline parameters
