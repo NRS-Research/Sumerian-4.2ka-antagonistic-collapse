@@ -1,5 +1,5 @@
 """
-Conflict Multiplier Model Numerical Simulation (Corrected)
+antagonistic dynamics model Numerical Simulation (Corrected)
 Corresponds to Section S3 of the Supplementary Information
 Core dynamical system:
   dW/dt = r - Γ · s(t) · W
@@ -13,7 +13,7 @@ Fixes to original version:
 5. 600 DPI resolution, Nature Portfolio color-blind friendly palette
 
 Dependencies: Python 3.8+, numpy, scipy, matplotlib
-Repository path: code/conflict_multiplier_simulation.py
+Repository path: code/antagonistic_dynamics_simulation.py
 """
 
 import numpy as np
@@ -195,14 +195,14 @@ plt.tight_layout(rect=[0, 0, 1, 0.96])
 # 7. SAVE OUTPUTS
 # ==============================================================
 os.makedirs("../figures", exist_ok=True)
-plt.savefig("../figures/conflict_multiplier_simulation.png", dpi=600, bbox_inches="tight")
-plt.savefig("../figures/conflict_multiplier_simulation.svg", format="svg", bbox_inches="tight")
+plt.savefig("../figures/antagonistic_dynamics_simulation.png", dpi=600, bbox_inches="tight")
+plt.savefig("../figures/antagonistic_dynamics_simulation.svg", format="svg", bbox_inches="tight")
 print("\n✅ Figures saved to ../figures/ (600 DPI PNG + vector SVG)")
 
 os.makedirs("../data", exist_ok=True)
 results_array = np.column_stack((year_bce_fine, t_fine, s_norm, gamma_norm, W_norm))
 csv_header = "year_BCE,years_after_onset,s_t_normalized,gamma_t_normalized,W_t_normalized"
-np.savetxt("../data/conflict_multiplier_simulation_results.csv",
+np.savetxt("../data/antagonistic_dynamics_simulation_results.csv",
            results_array, delimiter=",", header=csv_header, comments="", fmt="%.4f")
 print("✅ Simulation results saved to ../data/")
 
