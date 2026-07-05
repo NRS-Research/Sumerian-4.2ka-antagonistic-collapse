@@ -1,7 +1,7 @@
  DOI: 10.5281/zenodo.20780750
 
 Repository overview: research background, dataset summary, quick start guide
-
+---
 Replication data and code for "A ~115-Year Lag Between Peak Aridity and Sumerian Collapse"
 This repository provides the complete reproducible dataset and numerical simulation code for the Antagonistic Dynamics Model, which explains the centennial-scale lag between climatic stress peaks and societal collapse across Bronze Age civilizations during the 4.2 ka event. The Sumerian civilization is used as the core quantitative case study, with four additional civilizations included for cross-validation.
 ---
