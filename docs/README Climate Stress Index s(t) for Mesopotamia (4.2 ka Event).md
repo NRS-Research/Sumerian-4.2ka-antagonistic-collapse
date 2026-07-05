@@ -58,7 +58,10 @@ If you use this derived `s(t)` dataset in your own research, you are required to
 
 ---
 
-## 6. Copyright Statement
+## 6. Consistency Note
+- The ~2190 BCE aridity peak defined here is used as the reference point for calculating lag values throughout the study. The model-derived antagonism lag (~92 years) and collapse lag (~115 years) are computed relative to this node. The collapse lag is consistent with the archaeologically observed ~120-year lag within dating uncertainties (±30 years).
+
+## 7. Copyright Statement
 - All original proxy data are copyrighted by the original authors and *Proceedings of the National Academy of Sciences* (PNAS).
 - The derived normalized index, processing code, and documentation in this repository are provided exclusively for academic reproducibility and non-commercial research purposes.
 - Derivative content in this repository is distributed under the CC-BY-NC 4.0 license; original source data remains subject to the original publisher’s terms of use.

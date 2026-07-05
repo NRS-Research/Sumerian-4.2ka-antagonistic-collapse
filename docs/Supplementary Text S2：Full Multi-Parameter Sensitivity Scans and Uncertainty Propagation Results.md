@@ -1,85 +1,62 @@
-# Full Multi-Parameter Sensitivity Scans and Uncertainty Propagation Results
+Full Multi-Parameter Sensitivity Scans and Uncertainty Propagation Results
 
-*Supplementary Extended Results for Section S4*
+Supplementary Extended Results for Section S4
 
-## Overview
-
-This document presents extended results from the full multi-parameter sensitivity analysis and uncertainty propagation for the bivariate antagonistic dynamics model, complementing the one-at-a-time (OAT) sensitivity tests reported in Table S6 of the main Supplementary Information. The analysis aims to verify that the empirically observed centennial-scale lags are structural emergent properties of the stress-amplification-depletion mechanism, rather than artifacts of finely tuned parameter values.
-
-All simulations preserve the empirically calibrated climate stress function and pre-shock initial conditions defined in Section S3.
-
-\---
-
-## 1\. Two-Dimensional Grid Scan Methodology
+Overview
+This document presents extended results from the full multi-parameter sensitivity analysis and uncertainty propagation for the bivariate antagonistic dynamics model, complementing the one-at-a-time (OAT) sensitivity tests reported in Table S6 of the main Supplementary Information.
+1. Two-Dimensional Grid Scan Methodology
 
 We performed a systematic grid scan over the two core parameters governing the endogenous lag structure:
 
-* $\\alpha$: Sensitivity of antagonistic investment to climatic stress and system resilience
-* $\\beta$: Natural decay rate of antagonistic investment stock
+α: Sensitivity of antagonistic investment to climatic stress
 
-### Scan Specifications
+k: Resilience consumption rate per unit conflict
 
-* **Parameter range**: ±50% around the baseline values, covering the full empirically plausible parameter space for Bronze Age agrarian societies
-* **Grid resolution**: 50 × 50 evenly spaced parameter combinations (2,500 total simulation runs)
-* **Fixed parameters**: Intrinsic growth rate $r = 0.012 , \\text{yr}^{-1}$ and resilience consumption coefficient $k = 0.024$ are held at baseline values, as OAT tests show they have secondary effects on lag magnitudes
-* **Output metrics**: For each parameter combination, we compute two key chronological outputs:
+Scan Specifications
 
-  1. Peak antagonism lag: Time between peak climatic stress and peak antagonistic investment
-  2. Systemic collapse lag: Time between peak climatic stress and the point where $W(t)$ falls below the 20% collapse threshold
+Parameter range: ±30% around the baseline values (α = 0.0075, k = 0.0233)
 
-\---
+Grid resolution: 15 × 15 evenly spaced parameter combinations (225 total simulation runs)
 
-## 2\. Core Grid Scan Results
+Fixed parameters: r = 0.009, β = 0.003, W₀ = 0.8, γ₀ = 0.1
 
-### 2.1 Lag Stability Intervals
+2. Core Grid Scan Results
+2.1 Lag Stability Intervals
 
-Across nearly all physically plausible parameter combinations, the model produces lag magnitudes within tightly bounded, archaeologically consistent windows:
+Across nearly all physically plausible parameter combinations, the model produces lag magnitudes within bounded, archaeologically consistent windows:
 
-* **Peak antagonism lag**: Ranges from 49 to 74 years, with a central tendency of 60 ± 20 years
-* **Systemic collapse lag**: Ranges from 98 to 148 years, with a central tendency of 120 ± 30 years
+Peak antagonism lag: Ranges from 70 to 127 years, with a baseline of 92 years
 
-The 60-year and 120-year lag values observed in the Sumerian archaeological record fall near the center of these stable intervals, confirming they are robust attractors of the dynamical system rather than outputs of a narrowly tuned parameter set.
+Systemic collapse lag: Ranges from 82 to 181 years, with a baseline of 115 years
 
-### 2.2 Parameter Dependence Patterns
+The model-derived 92-year antagonism lag and 115-year collapse lag fall within these stable intervals, confirming they are robust attractors of the dynamical system rather than outputs of a narrowly tuned parameter set.
 
-* Lag magnitudes increase monotonically as $\\alpha$ decreases (slower antagonism accumulation) or $\\beta$ decreases (slower antagonism depreciation)
-* Lag magnitudes decrease monotonically as $\\alpha$ increases (faster antagonism buildup) or $\\beta$ increases (faster conflict de-escalation)
-* No parameter combination within the ±50% range reverses the three-phase dynamical sequence (stress peak → antagonism peak → resilience collapse)
+2.2 Parameter Dependence Patterns
 
-Contour plots of lag values across the $\\alpha\\text{–}\\beta$ parameter plane are provided as Figure S1, showing smooth, continuous gradient patterns with no abrupt regime shifts.
+Lag magnitudes increase as α decreases (slower antagonism accumulation) or k decreases (lower resilience consumption)
 
-\---
+Lag magnitudes decrease as α increases (faster antagonism buildup) or k increases (higher resilience consumption)
 
-## 3\. Uncertainty Propagation Analysis
+No parameter combination within the ±30% range reverses the three-phase dynamical sequence
 
-We conducted Monte Carlo uncertainty propagation (1,000 random sampling runs) to quantify how input uncertainties translate to output lag uncertainty.
+Contour plots of lag values across the α–k parameter plane are provided as Figure S1.
+3. Uncertainty Propagation Analysis
 
-### Sources of Input Uncertainty
+We conducted Monte Carlo uncertainty propagation (1,000 random sampling runs, seed = 42) with ±15% simultaneous perturbation of all four parameters.
 
-1. Parameter estimation uncertainty: All four core parameters sampled from uniform distributions within ±30% of baseline values
-2. Chronological dating uncertainty: Archaeological time node uncertainty of ±30 years, consistent with standard Bronze Age chronometric error margins
+Propagation Results (95% Confidence Intervals)
 
-### Propagation Results
+Peak antagonism lag: 73.5 – 115.1 years (mean 92.6 ± 11.1)
 
-The 95% confidence intervals for model outputs are:
+Systemic collapse lag: 86.3 – 157.1 years (mean 117.4 ± 18.8)
 
-* Peak antagonism lag: 52 – 71 years
-* Systemic collapse lag: 103 – 141 years
+Both confidence intervals encompass the model baseline values (92 and 115 years), confirming robustness to realistic levels of input uncertainty.
+4. Robustness Summary
 
-Both confidence intervals fully overlap with the empirically observed lag values (60 years and 120 years respectively), confirming that the model-data agreement is robust to realistic levels of input uncertainty.
+The three-phase stress–antagonism–collapse sequence is universally preserved across all tested parameter combinations.
 
-\---
+The centennial-scale lag magnitudes are stable structural attractors across the full plausible parameter space.
 
-## 4\. Robustness Summary
+Monte Carlo uncertainty propagation confirms model outputs remain robust under realistic input error bounds.
 
-1. The three-phase stress–antagonism–collapse sequence is universally preserved across all tested parameter combinations
-2. The centennial-scale lag magnitudes are stable structural attractors across the full plausible parameter space, not dependent on precise parameter calibration
-3. Monte Carlo uncertainty propagation confirms model outputs remain consistent with archaeological observations under realistic input error bounds
-4. These results collectively validate that the observed lag pattern is an emergent property of the antagonistic adaptation mechanism, rather than a statistical artifact.
-
-\---
-
-## Data and Code Availability
-
-Full raw simulation output from the 2,500-run grid scan, 1,000-run Monte Carlo analysis, and plotting scripts for the contour figures are deposited in the open GitHub repository and permanent Zenodo archive linked in the main manuscript’s *Data and Code Availability* section.
-
+The model-derived collapse lag (~115 years) is consistent with the archaeologically observed ~120-year lag within dating uncertainties (±30 years).
