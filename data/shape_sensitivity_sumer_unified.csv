@@ -1,0 +1,14 @@
+ShockShape,CollapseLag_yr
+Base,116.10000000000002
+Linear,132.3
+Step,168.3
+Gaussian,
+Empirical (w=20),162.50000000000003
+Square (w=20),
+Gaussian (w=20),
+Empirical (w=40),152.2
+Square (w=40),
+Gaussian (w=40),
+Empirical (w=60),141.20000000000002
+Square (w=60),
+Gaussian (w=60),
